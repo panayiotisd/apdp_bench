@@ -143,7 +143,7 @@
 
           <p>We introduce a real-world optimization benchmark, where agents manage the pickup and delivery of parcels for a logistics company. Each agent has to optimally bid for tasks sold at an auction, and plan for the pickup and delivery of the won tasks.</p>
 
-          <p>In a massive tournament of <strong>~40,000 matches</strong>, we evaluated a range of SOTA LLM-coded agents (GPT-5 Thinking, Gemini 2.5 Pro, Claude Opus 4.1, DeepThink R1), against 17 <strong>human-coded agents, developed before the advent of LLMs</strong>, including 12 agents developed by students.</p>
+          <p>In a massive tournament of <strong>~40,000 matches</strong>, we evaluated a range of SOTA LLM-coded agents (using OpenAI's GPT-5 Thinking, Google's Gemini 2.5 Pro, Anthropic's Claude Opus 4.1, and DeepSeek's DeepThink R1), against 17 <strong>human-coded agents, developed before the advent of LLMs</strong>, including 12 agents developed by students.</p>
 
           <p><strong>The results?</strong></p>
 
@@ -154,9 +154,13 @@
           33 of 40 LLM-coded agents lost to simple baseline strategies.<br>
           <em>Given the best human solution as an input and prompted to improve upon, the best performing LLM makes the solution significantly worse instead of improving it.</em></p>
 
-          <p>🎯 <strong>Takeaway:</strong> While LLMs can generate code that runs (i.e., free of syntax errors), the solution is not competitive to human-designed ones on dimensions such as strategic planning, reasoning, optimization, or multi-agent competition.</p>
+          <p>🎯 <strong>Takeaways:</strong></p>
 
-          <p>It's time for a new frontier of benchmarks that go beyond passing unit tests; shifting the goal from code that compiles to code that competes.</p>
+          <p>📌 While LLMs can generate code that runs (i.e., free of syntax errors), the solution is not competitive to human-designed ones on dimensions such as strategic planning, reasoning, optimization, or multi-agent competition.</p>
+
+          <p>📌 It's time for a new frontier of benchmarks that go beyond passing unit tests; shifting the goal from code that compiles to code that competes.</p>
+
+          <p>📌 For problems requiring optimization and planning, LLMs can accelerate implementation but humans should not be left out of the loop. Additionally, code refactoring with no human guidance might degrade performance.</p>
         </div>
       </div>
     </div>
